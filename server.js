@@ -11,7 +11,18 @@ var port = 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
+/*
+ * ROUTES
+ */
 
+// post
+
+
+// get
+
+// put
+
+// delete
 
 
 app.listen(port, function(){
