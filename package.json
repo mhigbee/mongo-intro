@@ -1,24 +1,31 @@
 {
-  "name": "node-api",
+  "name": "node-intro",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "this is a node project",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencallis1/node-intro.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Ben Callis",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.13.2",
-    "colors": "^1.1.2",
-    "express": "^4.13.1",
-    "lodash": "^3.10.0",
-    "mongoose": "^4.0.8",
-    "morgan": "^1.6.1"
+  "bugs": {
+    "url": "https://github.com/bencallis1/node-intro/issues"
   },
-  "devDependencies": {
-    "chai": "^3.2.0",
-    "supertest": "^1.0.1"
+  "homepage": "https://github.com/bencallis1/node-intro#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "mongojs": "^2.4.0",
+    "morgan": "^1.7.0"
   }
 }
